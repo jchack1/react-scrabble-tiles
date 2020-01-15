@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.CharacterContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70vw;;
+  margin: auto;
+}
+
+.InputBox{
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: monospace;
+  height: 20px;
+}
+
+.InputBox:focus{
+  outline: none;
+  border: 1px solid #edc86d;
+}
